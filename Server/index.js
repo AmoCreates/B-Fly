@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/connect', (req, res) => {
-  res.send("Backend Connected Successfully!!")
+  res.send("Backend Connected!!")
 })
 
 app.listen(port, () => {
